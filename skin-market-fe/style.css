@@ -1,0 +1,58 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 7em;
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.imgLogo {
+    height: 8em;
+}
+
+.ulNav {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    list-style: none;
+    font-size: 1.5em;
+}
+
+.liNav {
+    margin: 0.5em;
+}
+
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divConnect {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputUserLogin {
+    margin: .1em;
+    border: solid 1px black;
+    border-radius: 0.3em;
+    padding-left: 0.3em;
+    outline: none;
+}
+
+.buttonUserLogin {
+    margin-top: .5em;
+    border: solid 1px black;
+    border-radius: 0.3em;
+}
