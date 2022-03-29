@@ -11,10 +11,8 @@ const config = {
 
 const pool = new Pool(config);
 
-app.get('/', (req, res) =>{
-    res.send('Hello World, backend is running');
-})
+app.use('/', require('./router/routes'));
 
 app.listen(8080, () =>{ 
-    console.log('Server running on port 3000')
+    console.log('Server running on port 8080')
 })
