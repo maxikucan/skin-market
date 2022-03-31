@@ -2,19 +2,22 @@ body {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 nav {
     height: 7em;
     display: flex;
     flex-direction: row;
-    background-color: aqua;
     align-items: center;
     justify-content: space-around;
+    background: black;
 }
 
 .imgLogo {
-    height: 8em;
+    height: 7em;
+    outline: none;
+    background-color: rgba(87, 87, 87, 0.5);
 }
 
 .ulNav {
@@ -22,12 +25,31 @@ nav {
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
+    align-items: center;
     list-style: none;
     font-size: 1.5em;
+    color: rgb(156, 156, 156);    
 }
 
 .liNav {
     margin: 0.5em;
+}
+
+.search {
+    margin-left: 1.5em;
+    height: 0.8em;
+    width: 15em;
+    font-size: 0.5em;
+    outline: none;
+    padding-left: 0.3em;
+    padding-top: 0.3em;
+}
+
+.lupa {
+    margin-left: 0.3em;
+    width: .8em;
+    border-radius: 5px;
+    background-color: silver;
 }
 
 .formLogin {
@@ -55,4 +77,14 @@ nav {
     margin-top: .5em;
     border: solid 1px black;
     border-radius: 0.3em;
+    background-color: rgb(235, 235, 235);
+}
+
+a {
+    color: rgb(109, 109, 109);
+    font-size: 0.8em;
+}
+
+a:hover {
+    color: rgb(109, 109, 109);
 }
