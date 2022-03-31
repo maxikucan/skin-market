@@ -9,3 +9,10 @@ CREATE TABLE users(
 INSERT INTO users(name, password) VALUES('admin', 'admin');
 
 --- CREAR TABLA USUARIOS ---
+
+--- AÑADIR USUARIO ESPI Y MAXI---
+
+INSERT INTO users(name, password) VALUES('espi', 'admin');
+INSERT INTO users(name, password) VALUES('maxi', 'admin');
+
+--- AÑADIR USUARIO ESPI Y MAXI---
