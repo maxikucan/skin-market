@@ -16,3 +16,16 @@ INSERT INTO users(name, password) VALUES('espi', 'admin');
 INSERT INTO users(name, password) VALUES('maxi', 'admin');
 
 --- AÑADIR USUARIO ESPI Y MAXI---
+
+
+--- CREAR TABLA PRODUCTOS ---
+
+CREATE TABLE products(
+	id SERIAL,
+	name TEXT,
+	price TEXT,
+	path TEXT,
+	isOffer BOOLEAN
+);
+
+--- CREAR TABLA PRODUCTOS ---

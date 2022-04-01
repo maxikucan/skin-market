@@ -32,4 +32,3 @@ const getUsers = async () => {
         console.log(e);
     }
 }
-
