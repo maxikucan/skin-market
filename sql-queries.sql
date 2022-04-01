@@ -29,3 +29,9 @@ CREATE TABLE products(
 );
 
 --- CREAR TABLA PRODUCTOS ---
+
+--- AÑADIR PRODUCTO DE PRUEBA---
+
+INSERT INTO products(name, price, path, isOffer) VALUES('awp-test', '1500', 'https://juegagamer.com/wp-content/uploads/2020/05/Steam-AWP.jpg', false);
+
+--- AÑADIR PRODUCTO DE PRUEBA---
