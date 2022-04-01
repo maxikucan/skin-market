@@ -2,7 +2,6 @@ const express = require('express');
 const { Pool } = require('pg');
 
 const router = express.Router();
-let usersArr;
 
 const config = {
     host: 'localhost',
@@ -11,11 +10,11 @@ const config = {
     database: 'skin_market_db'
 };
 
+const pool = new Pool(config);
+
 router.get('/', (req, res) =>{
     res.send('Hello World. Backend is running');
 });
-
-const pool = new Pool(config);
 
 router.get('/userConnect', async (req, res) => {
     const response = await getUsers();
